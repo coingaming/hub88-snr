@@ -76,8 +76,6 @@ Your project must successfully:
 - Pass on all test cases directly related to the Operator API documentation
 - Pass on the majority (> 80%) of the test cases related to performance and integrity
 
-Otherwise, your challenge will be rejected.
-
-If your challenge is accepted, we will schedule your technical interview to discuss the results and your development process.
+If the points above are satisfied, a technical interview will be scheduled to discuss the results and the development process of the challenge.
 
 For further clarifications, be in touch with the recruitment contact.
