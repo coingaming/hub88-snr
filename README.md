@@ -11,7 +11,7 @@ An "Operator" need to implement the API defined by the [Operator Documentation](
 Please be strict to the following guidelines:
 
 - Your code must be well-written: Good formatting, readable, maintainable
-- Your code must be on GitHub as a private repository. Send an invite to [@segaz2002](https://github.com/segaz2002) as "Admin"
+- Your code must be on GitHub as a private repository. Send an invite to [@segaz2002](https://github.com/segaz2002)
 - Your project must be a `mix` project
 - Your application name must be `:challenge`
 - Your project must only use Elixir core-modules, no extra dependencies
@@ -33,28 +33,12 @@ Please be strict to the following guidelines:
   @spec create_users(server :: GenServer.server(), users :: [String.t()]) :: :ok
 
   @doc """
-  The same behavior from `POST /user/balance` docs.
-
-  The `body` parameter is the "body" from the docs as a map with keys as atoms.
-  The result is the "response" from the docs as a map with keys as atoms.
-  """
-  @spec balance(server :: GenServer.server(), body :: map) :: map
-
-  @doc """
   The same behavior from `POST /transaction/bet` docs.
 
   The `body` parameter is the "body" from the docs as a map with keys as atoms.
   The result is the "response" from the docs as a map with keys as atoms.
   """
   @spec bet(server :: GenServer.server(), body :: map) :: map
-
-  @doc """
-  The same behavior from `POST /transaction/rollback` docs.
-
-  The `body` parameter is the "body" from the docs as a map with keys as atoms.
-  The result is the "response" from the docs as a map with keys as atoms.
-  """
-  @spec rollback(server :: GenServer.server(), body :: map) :: map
 
   @doc """
   The same behavior from `POST /transaction/win` docs.
