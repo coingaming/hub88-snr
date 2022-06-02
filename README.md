@@ -15,7 +15,7 @@ Please be strict to the following guidelines:
 - Your project must be a `mix` project
 - Your application name must be `:challenge`
 - Your project must only use Elixir core-modules, no extra dependencies
-- Your project must only use Elixir OTP to manage data in application memory. Do NOT use databases (ex: PostgreSQL) or storages (ex: ETS)
+- Your project must only use Elixir OTP to manage data in application memory. Do NOT use databases (ex: PostgreSQL)
 - Your project must implement the `Challenge` module with the following public functions:
 
   ```elixir
