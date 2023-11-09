@@ -2,25 +2,25 @@
 
 As a Hub88 developer, you will be interacting directly with the Hub88 APIs, the "Game Providers APIs" and the "Operators APIs".
 
-An "Operator" need to implement the API defined by the [Operator Documentation](https://hub88.io/docs/operator) to handle received requests from Game providers via Hub88.
+An "Operator" needs to implement the API defined by the [Operator Documentation](https://hub88.io/docs/operator) to handle received requests from Game providers via Hub88.
 
 **To test your skills, you need to develop your own Operator's "Wallet API" as an Elixir application and discuss the solution in a technical meeting.**
 
 **Note**: There are no explicit deadlines. However, do note that proceeding with your challenge is subject to the availability of the position. Keep in touch with the recruitment contact to plan your delivery.
 
-Please be strict to the following guidelines:
+Please be strict with the following guidelines:
 
 - Your code must be well-written: Good formatting, readable, maintainable
 - Your code must be on GitHub as a private repository. Send an invite to [@segaz2002 and @gokul-poongodi](https://github.com/segaz2002, https://github.com/gokul-poongodi)
 - Your project must be a `mix` project
 - Your application name must be `:challenge`
-- Your project must only use Elixir core-modules, no extra dependencies
+- Your project must only use Elixir core modules, no extra dependencies
 - Your project must only use Elixir OTP to manage data in application memory. Do NOT use databases (ex: PostgreSQL)
 - Your project must implement the `Challenge` module with the following public functions:
 
   ```elixir
   @doc """
-  Start a linked and isolated supervision tree and returns the root server that
+  Start a linked and isolated supervision tree and return the root server that
   will handle the requests.
   """
   @spec start :: GenServer.server()
@@ -33,7 +33,7 @@ Please be strict to the following guidelines:
   @spec create_users(server :: GenServer.server(), users :: [String.t()]) :: :ok
 
   @doc """
-  The same behavior from `POST /transaction/bet` docs.
+  The same behavior is from `POST /transaction/bet` docs.
 
   The `body` parameter is the "body" from the docs as a map with keys as atoms.
   The result is the "response" from the docs as a map with keys as atoms.
@@ -41,7 +41,7 @@ Please be strict to the following guidelines:
   @spec bet(server :: GenServer.server(), body :: map) :: map
 
   @doc """
-  The same behavior from `POST /transaction/win` docs.
+  The same behavior is from `POST /transaction/win` docs.
 
   The `body` parameter is the "body" from the docs as a map with keys as atoms.
   The result is the "response" from the docs as a map with keys as atoms.
