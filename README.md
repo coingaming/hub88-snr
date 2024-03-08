@@ -11,7 +11,7 @@ An "Operator" needs to implement the API defined by the [Operator Documentation]
 Please be strict with the following guidelines:
 
 - Your code must be well-written: Good formatting, readable, maintainable
-- Your code must be on GitHub as a private repository. Send an invite to [@segaz2002 and @gokul-poongodi](https://github.com/shegx01, https://github.com/gokul-poongodi)
+- Your code must be on GitHub as a private repository. Send an invite to [@shegx01 and @gokul-poongodi](https://github.com/shegx01, https://github.com/gokul-poongodi)
 - Your project must be a `mix` project
 - Your application name must be `:challenge`
 - Your project must only use Elixir core modules, no extra dependencies
